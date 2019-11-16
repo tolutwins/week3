@@ -21,8 +21,8 @@ body {
     text-align: center;
 }
 
-.dashboardContainer {
-    width: 1200px;
+.genericContainer {
+    width: 800px;
     margin: auto;
 }
 
