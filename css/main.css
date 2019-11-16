@@ -1,0 +1,59 @@
+body {
+    /* background-color: lightgray; */
+}
+
+.loginContainer {
+    width: 800px;
+    margin: auto;
+    /* border: 1px solid darkgray; */
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.formInput {
+    width: 100%;
+    display: inline-block;
+    height: 40px;
+    margin: 20px 0px 20px 0px;
+}
+
+.loginContainer .formLogo {
+    text-align: center;
+}
+
+.dashboardContainer {
+    width: 900px;
+    margin: auto;
+}
+
+.topDiv {
+    height: 100px;
+}
+
+.genericDiv {
+    width: 49%;
+    display: inline-block;
+}
+
+.welcomeDiv {
+    text-align: right;
+}
+
+.options {
+    width: 20%;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkgray;
+    text-align: center;
+    line-height: 100px;
+}
+
+.olive {
+    background-color: #FFE65E;
+}
+
+a {
+    color: green !important;
+}
