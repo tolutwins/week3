@@ -15,14 +15,25 @@ body {
     display: inline-block;
     height: 40px;
     margin: 20px 0px 20px 0px;
+    border: 1px solid #f5f5f5;
+}
+
+.modifiedCss {
+    width: 95%;
+    margin: 0px;
+    height: 30px;
+}
+
+.search {
+    margin: 0px !important;
 }
 
 .loginContainer .formLogo {
     text-align: center;
 }
 
-.dashboardContainer {
-    width: 700px;
+.genericContainer {
+    width: 800px;
     margin: auto;
 }
 
@@ -45,15 +56,58 @@ body {
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    border: 1px solid darkgray;
+    border: 1px solid #f5f5f5;
     text-align: center;
     line-height: 100px;
+    background-color: greenyellow;
+    color: black;
+    border: 1px solid green;
 }
 
-.olive {
-    background-color: #FFE65E;
+.options:hover {
+    background-color: green;
+    color: white;
 }
 
 a {
     color: green !important;
+}
+
+.button_submit {
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+}
+
+.bottomDiv ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.bottomDiv ul li {
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc;
 }
