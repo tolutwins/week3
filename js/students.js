@@ -362,7 +362,7 @@ var arrStudents = [
 ];
 
 function PopulateStudents() {
-    var generatedHTML = "<table><tr><th>Firstname</th><th>Lastname</th><th>Profile Pix</th></tr>";
+    var generatedHTML = "<table class=\"table\"><tr><th>Firstname</th><th>Lastname</th><th>Profile Pix</th></tr>";
     for(var i = 0; i < arrStudents.length; i++) {
         // divStudents
         var student = arrStudents[i];
