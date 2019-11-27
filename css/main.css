@@ -111,3 +111,16 @@ a {
 .topnav .search-container button:hover {
     background: #ccc;
 }
+
+.resize {
+    width: 100px;
+    height: 100px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    text-align: center;
+}
